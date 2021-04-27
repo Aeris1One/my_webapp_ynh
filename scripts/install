@@ -20,6 +20,8 @@ ynh_abort_if_errors
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
 #=================================================
 
+YNH_PHP_VERSION="7.4"
+
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
 with_sftp=$YNH_APP_ARG_WITH_SFTP
