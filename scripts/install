@@ -139,7 +139,7 @@ fi
 ynh_script_progression --message="Configuring PHP-FPM..." --weight=2
 
 # Create a dedicatedPHP-FPM config
-ynh_add_fpm_config --usage=low --footprint=low
+ynh_add_fpm_config --phpversion=7.4 --usage=low --footprint=low
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 
 #=================================================
